@@ -1,0 +1,28 @@
+<div className="cardContainer">
+    <div className="cardIndicatorGrey"></div>
+    <div className="cardInfo">
+        <div>
+            <p className="title-5">Salário - Dezembro</p>
+            <p className="body-text">Entrada</p>
+        </div>
+        <div>
+            <p className="body-text">R$12,000.00</p>
+            <button></button>
+        </div>
+
+    </div>
+</div>
+<div className="cardContainer">
+    <div className="cardIndicatorGreen"></div>
+    <div className="cardInfo">
+        <div>
+            <p className="title-5">Salário - Dezembro</p>
+            <p className="body-text">Entrada</p>
+        </div>
+        <div>
+            <p className="body-text">R$12,000.00</p>
+            <button></button>
+        </div>
+
+    </div>
+</div>"

@@ -1,0 +1,78 @@
+#initialPageBody{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-grey-4);
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    box-sizing: border-box;
+
+    transition: 1s;
+}
+
+.logoInitial{
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--color-white);
+    
+    transition: 1s;
+}
+
+.leftPart{
+    width: 30vw;
+    
+        transition: 1s;
+    }
+    
+    .logoInitial > span{
+        color: var(--color-primary);
+    }
+    
+    .leftPart h2, .leftPart p {
+        color: var(--color-white);
+    }
+    
+    .leftPart  button{
+        height: 50px;
+        width: 100%;
+        margin-top: 20px;
+        
+        border: none;
+        border-radius: 8px;
+        
+        background-color: var(--color-primary);
+        
+        color: var(--color-grey-1);
+        font-size: 16px;
+        font-weight: 500;
+        
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .leftPart button:hover{
+        background-color: var(--color-primary-2);
+    }
+    
+    img{
+        height: 70vh;
+        
+        transition: 1s;
+    }
+    
+    @media (max-width: 1000px) {
+    img{
+        position: absolute;
+        opacity: 0.15;
+        z-index: 0;
+    }
+
+    .leftPart{
+        width: 90vw;
+        z-index: 1;
+    }
+}

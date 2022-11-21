@@ -1,0 +1,99 @@
+.cardContainer{
+    width: 40vw;
+    height: 85px;
+    padding: 8px 18px;
+    margin-bottom: 30px;
+    position: relative;
+
+    border-radius: 8px;
+
+    background-color: var(--color-grey-1);
+
+    transition: 0.5s;
+}
+
+.cardContainer:hover{
+    background-color: #fff;
+    box-shadow:0px 0px 15px 0px #d3d2d2 ;
+}
+
+.cardIndicatorGreen{
+    height: 100%;
+    width: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 8px 0 0 8px;
+
+    background-color: var(--color-secondary);
+}
+
+.cardIndicatorGrey{
+    height: 100%;
+    width: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 8px 0 0 8px;
+
+    background-color: var(--color-grey-3);
+}
+
+.cardInfo{
+    width: 99%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardInfo :nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cardInfo button{
+    height: 22px;
+    width: 22px;
+
+    background-image: url('../../img/trash.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    border: none;
+    border-radius: 2.5px;
+    
+    background-color: var(--color-grey-2);
+    fill: var(--color-primary);
+}
+
+.cardInfo button:hover{
+    background-image: url('../../img/trash-white.svg');
+    background-color: var(--color-grey-4)
+}
+
+
+
+.emptyCardContainer{
+    width: 40vw;
+    margin-bottom: 30px;
+}
+
+.emptyCardContainer img{
+    width: 100%;
+    height: 85px;
+    margin-bottom: 10px;
+
+    transition: 0.5s;
+}
+.emptyCardContainer img:hover{
+    transform: scale(1.02);
+}
+
+@media (max-width: 900px){
+    .cardContainer{
+      width: 85vw;
+    }
+}

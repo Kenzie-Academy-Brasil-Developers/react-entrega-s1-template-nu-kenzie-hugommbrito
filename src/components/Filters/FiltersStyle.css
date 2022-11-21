@@ -1,0 +1,46 @@
+.filtersDiv{
+    margin-top: 40px;
+    width: 40vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumoText{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.filtersDiv button{
+    height: 40px;
+    padding: 10px 15px;
+    margin: 0 2px;
+
+    background-color: var(--color-grey-2);
+    
+    border: none;
+    border-radius: 8px;
+    
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-grey-3);
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.filtersDiv button:hover{
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-1);
+}
+
+.filtersDiv button:focus{
+    background-color: var(--color-primary);
+    color: var(--color-grey-1);
+}
+
+@media (max-width: 900px){
+    .filtersDiv{
+      width: 85vw;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+.App-header, .App-Body, body{
+  font-family: 'Nunito', sans-serif;
+}
+
+:root {
+  --color-primary: #FD377E;
+  --color-primary-2: #E34981;
+  --color-secondary: #03B898;
+  --color-white: #FFFFFF;
+  --color-grey-4:  #212529;
+  --color-grey-3:  #868E96;
+  --color-grey-2:  #E9ECEF;
+  --color-grey-1:  #F8F9FA;
+}
+
+body{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 900px){
+  body{
+    flex-direction: column;
+  }
+}

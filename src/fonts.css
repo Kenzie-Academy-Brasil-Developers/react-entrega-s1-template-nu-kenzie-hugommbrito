@@ -1,0 +1,39 @@
+.logo{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.title-1{
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.title-2{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.title-3{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.title-4{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.title-5{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.headline{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.body-text{
+    font-weight: 400;
+    font-size: 12px;
+}
